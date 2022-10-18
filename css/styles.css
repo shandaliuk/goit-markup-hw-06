@@ -799,6 +799,7 @@ body {
 }
 
 .modal-checkbox-label {
+  display: block;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -816,6 +817,12 @@ body {
 }
 
 .checkbox-icon {
+  display: inline-block;
   width: 16px;
   height: 15px;
+  border: 1px solid var(--main-text-color);
+}
+
+.modal-checkbox:checked + .checkbox-label {
+  background-color: red;
 }
