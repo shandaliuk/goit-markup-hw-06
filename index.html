@@ -67,7 +67,9 @@
       <section class="hero">
         <div class="container">
           <h1 class="hero-title heading">Ефективні рішення для вашого бізнесу</h1>
-          <button type="button" class="hero-btn" data-modal-open>Замовити послугу</button>
+          <button type="button" class="hero-btn button main-button" data-modal-open>
+            Замовити послугу
+          </button>
         </div>
       </section>
       <section class="company-characteristics section company-characteristics-section">
@@ -462,7 +464,7 @@
                 placeholder="E-mail"
                 class="subscribe-input"
               />
-              <button type="submit" class="subscribe-submit-button">
+              <button type="submit" class="subscribe-submit-button button main-button">
                 <p class="subscribe-submit-text text">Підписатися</p>
                 <svg class="subscribe-submit-icon icon">
                   <use href="./images/icons.svg#send"></use>
@@ -514,15 +516,21 @@
             class="modal-comment-input"
             placeholder="Введіть текст"
           ></textarea>
-          <input type="checkbox" name="modal-checkbox" id="modal-checkbox" class="modal-checkbox" />
-          <label for="modal-checkbox" class="modal-checkbox-label">
-            <span class="checkbox-icon"></span>Погоджуюся з розсилкою та приймаю
-            <a href="#" class="modal-checkbox-link link">Умови договору</a></label
+          <label class="modal-checkbox-label">
+            <input type="checkbox" name="modal-checkbox" class="modal-checkbox visually-hidden" />
+            <span class="checkbox-box"
+              ><svg class="modal-checkbox-icon">
+                <use href="./images/icons.svg#check"></use></svg
+            ></span>
+            <p class="text modal-checkbox-text">
+              Погоджуюся з розсилкою та приймаю
+              <a href="#" class="modal-checkbox-link link">Умови договору</a>
+            </p></label
           >
-          <button type="submit">Submit</button>
+          <button type="submit" class="modal-submit-button button main-button">Відправити</button>
         </form>
         <button type="button" class="modal-button" data-modal-close>
-          <svg class="modal-close-icon">
+          <svg class="modal-close-icon icon">
             <use href="./images/icons.svg#close-window"></use>
           </svg>
         </button>
