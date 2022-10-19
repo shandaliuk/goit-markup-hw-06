@@ -341,7 +341,7 @@
           </address>
         </div>
         <div class="footer-social-networks">
-          <p class="social-networks-text text">Приєднуйтесь</p>
+          <p class="social-networks-text footer-text text">Приєднуйтесь</p>
           <ul class="list social-networks">
             <li class="social-netw-item">
               <a href="#" class="social-netw-link social-netw-link-footer">
@@ -372,6 +372,27 @@
               </a>
             </li>
           </ul>
+        </div>
+        <div class="subscribe-to-mailing-list">
+          <form>
+            <p class="subscribe-text footer-text text">Підпишіться на розсилку</p>
+            <label for="subscribe-input" class="subscribe-label"></label>
+            <div class="subscribe-input-button-wrapper">
+              <input
+                type="email"
+                name="subscribe-to-mailing"
+                id="subscribe-input"
+                placeholder="E-mail"
+                class="subscribe-input"
+              />
+              <button type="submit" class="subscribe-submit-button button main-button">
+                Підписатися
+                <svg class="subscribe-submit-icon icon">
+                  <use href="./images/icons.svg#send"></use>
+                </svg>
+              </button>
+            </div>
+          </form>
         </div>
       </div>
     </footer>
