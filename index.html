@@ -453,9 +453,8 @@
         </div>
         <div class="subscribe-to-mailing-list">
           <form action="#">
-            <label for="subscribe-input" class="subscribe-label footer-text text"
-              >Підпишіться на розсилку</label
-            >
+            <p class="subscribe-text footer-text text">Підпишіться на розсилку</p>
+            <label for="subscribe-input" class="subscribe-label"></label>
             <div class="subscribe-input-button-wrapper">
               <input
                 type="email"
@@ -465,7 +464,7 @@
                 class="subscribe-input"
               />
               <button type="submit" class="subscribe-submit-button button main-button">
-                <p class="subscribe-submit-text text">Підписатися</p>
+                Підписатися
                 <svg class="subscribe-submit-icon icon">
                   <use href="./images/icons.svg#send"></use>
                 </svg>
@@ -475,8 +474,7 @@
         </div>
       </div>
     </footer>
-    <!-- is-hidden -->
-    <div class="backdrop" data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <h2 class="modal-title title heading">Залиште свої дані, ми вам передзвонимо</h2>
         <form action="#" class="modal-form">
@@ -522,16 +520,16 @@
               ><svg class="modal-checkbox-icon">
                 <use href="./images/icons.svg#check"></use></svg
             ></span>
-            <p class="text modal-checkbox-text">
+            <span class="text modal-checkbox-text">
               Погоджуюся з розсилкою та приймаю
               <a href="#" class="modal-checkbox-link link">Умови договору</a>
-            </p></label
+            </span></label
           >
           <button type="submit" class="modal-submit-button button main-button">Відправити</button>
         </form>
-        <button type="button" class="modal-button" data-modal-close>
+        <button type="button" class="modal-button button" data-modal-close>
           <svg class="modal-close-icon icon">
-            <use href="./images/icons.svg#close-window"></use>
+            <use href="./images/icons.svg#close-the-window"></use>
           </svg>
         </button>
       </div>
